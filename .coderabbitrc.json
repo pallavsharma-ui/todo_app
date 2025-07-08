@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "no-console": "warn",
+    "max-lines-per-function": ["error", 5],
+    "require-jsdoc": "off",
+    "no-var": "error",
+    "prefer-const": "warn",
+    "camelcase": ["error", { "properties": "always" }]
+  },
+  "extends": [],
+  "env": {
+    "browser": true,
+    "es2021": true
+  }
+}
