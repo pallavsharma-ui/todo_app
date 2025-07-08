@@ -15,7 +15,7 @@ const TodoItem = memo(({ todo, onToggle, onDelete, onEdit }) => {
       editInputRef.current.select()
       console.log('🎯 TodoItem: Edit input focused for todo', todo.id)
     }
-  }, [])
+  }, [isEditing, todo.id])
 
   const handleToggle = () => {
     console.log('🔄 TodoItem: Toggling todo', todo.id)

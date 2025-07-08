@@ -17,7 +17,7 @@ const TodoStats = memo(({ todos }) => {
 
     console.log('📊 TodoStats: Calculated stats:', statsObj)
     return statsObj
-  }, )
+  }, [todos])
 
   console.log('📊 TodoStats: Rendering with', todos.length, 'todos')
 
